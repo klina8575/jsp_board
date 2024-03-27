@@ -7,14 +7,8 @@ public class Board {
 	private String reg_date; //등록일
 	private int views; //조회수
 	private String content; //내용
-	private String img;// 이미지
+	private String img; //이미지 경로
 	
-	public String getImg() {
-		return img;
-	}
-	public void setImg(String img) {
-		this.img = img;
-	}
 	public int getBoard_no() {
 		return board_no;
 	}
@@ -51,6 +45,10 @@ public class Board {
 	public void setContent(String content) {
 		this.content = content;
 	}
-	
-	
+	public String getImg() {
+		return img;
+	}
+	public void setImg(String img) {
+		this.img = img;
+	}
 }
